@@ -2,16 +2,70 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="Shop", content="Shop">
-    <link rel="stylesheet" href="style.css">
+    <meta name="Shop" , content="Shop">
     <title>Shop</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+.main {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50p;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 70px;
+    margin: 30px auto;
+}
+
+p {
+    width: 350px;
+    margin: 0 auto;
+}
+
+button {
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 200;
+    height: 60;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 500ms ease;
+    color: var(--tg-theme-button-color);
+    background: var(--tg-theme-button-text-color);
+}
+
+button:hover {
+    background: var(--tg-theme-secondary-bg-color)
+}
+    </style>
 </head>
 <body>
-    <div class="main">
-        <h1>Онлайн магазин</h1>
-        <img src="https://th.bing.com/th/id/OIP.Y6b_0jRM7fUpxBEU6JPG9AHaHa?rs=1&pid=ImgDetMain" alt="picture pizza">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at eum facere in libero molestiae odio quas sint. Atque commodi cupiditate distinctio dolor est ipsam quae repellat temporibus unde vel!</p>
-        <button id="buy">Купить</button>
-    </div>
-</body>
+<div class="main">
+    <h1>Онлайн магазин</h1>
+    <img src="https://th.bing.com/th/id/OIP.Y6b_0jRM7fUpxBEU6JPG9AHaHa?rs=1&pid=ImgDetMain" alt="picture pizza">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda at eum facere in libero molestiae odio quas
+        sint. Atque commodi cupiditate distinctio dolor est ipsam quae repellat temporibus unde vel!</p>
+    <button id="buy">Купить</button>
+</div>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+ø</body>
 </html>
